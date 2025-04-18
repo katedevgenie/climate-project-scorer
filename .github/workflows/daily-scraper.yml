@@ -1,0 +1,30 @@
+name: Daily Climate Project Scoring
+
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit and push scored projects
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scored_projects.json
+          git diff --cached --quiet || git commit -m "Daily update: scored projects"
+          git push
