@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Regen Network",
+    "description": "Tokenizing ecological state and building the economic infrastructure to support regenerative land stewardship.",
+    "tags": [
+      "ReFi",
+      "Carbon",
+      "Blockchain"
+    ],
+    "investment_score": 75
+  },
+  {
+    "name": "Open Forest Protocol",
+    "description": "A scalable, open, and transparent MRV solution to accelerate nature-based carbon projects.",
+    "tags": [
+      "Forestry",
+      "Carbon MRV",
+      "Web3"
+    ],
+    "investment_score": 45
+  },
+  {
+    "name": "Toucan Protocol",
+    "description": "Building public infrastructure to bring carbon markets on-chain and support a regenerative economy.",
+    "tags": [
+      "Carbon Market",
+      "Tokenization",
+      "Public Goods"
+    ],
+    "investment_score": 75
+  },
+  {
+    "name": "KlimaDAO",
+    "description": "A protocol to accelerate the price of carbon by creating strong demand through tokenized assets.",
+    "tags": [
+      "Carbon",
+      "DeFi",
+      "Climate"
+    ],
+    "investment_score": 55
+  },
+  {
+    "name": "Solid World DAO",
+    "description": "Building pre-financing infrastructure for high-integrity carbon projects using Web3 rails.",
+    "tags": [
+      "Carbon",
+      "Web3",
+      "DAO"
+    ],
+    "investment_score": 35
+  },
+  {
+    "name": "Flowcarbon",
+    "description": "Tokenizing nature-based carbon credits to increase liquidity and transparency in climate finance.",
+    "tags": [
+      "Carbon Credits",
+      "Tokenization",
+      "Climate Finance"
+    ],
+    "investment_score": 55
+  }
+]
